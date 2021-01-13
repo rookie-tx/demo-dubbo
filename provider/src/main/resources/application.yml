@@ -1,0 +1,7 @@
+dubbo:
+  application:
+    name: demo-dubbo-provider
+  registry:
+    address: redis://127.0.0.1:6379
+server:
+  port: 8080
